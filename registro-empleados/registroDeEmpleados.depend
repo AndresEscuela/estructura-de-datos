@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1649291625 source:c:\practicas\andres\equipo 1\registrodeempleados\src\indicedeagenda.c
+	"IndiceDeAgenda.h"
+
+1649291625 c:\practicas\andres\equipo 1\registrodeempleados\include\indicedeagenda.h
+
+1649292307 source:c:\practicas\andres\equipo 1\registrodeempleados\src\registrodeagenda.c
+	"RegistroDeAgenda.h"
+
+1649292571 c:\practicas\andres\equipo 1\registrodeempleados\include\registrodeagenda.h
+
