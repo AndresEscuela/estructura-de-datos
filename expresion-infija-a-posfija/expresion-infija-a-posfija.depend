@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1651255187 source:d:\repositorios\estructura-de-datos\expresion-infija-a-posfija\main.c
+	<stdio.h>
+	<stdbool.h>
+	"expresiones.h"
+
+1651254542 source:d:\repositorios\estructura-de-datos\expresion-infija-a-posfija\stack.c
+	<stdio.h>
+	"Stack.h"
+
+1651254589 d:\repositorios\estructura-de-datos\expresion-infija-a-posfija\stack.h
+	<stdbool.h>
+
+1651254469 source:d:\repositorios\estructura-de-datos\expresion-infija-a-posfija\expresiones.c
+	"expresiones.h"
+	"Stack.h"
+
+1651255246 d:\repositorios\estructura-de-datos\expresion-infija-a-posfija\expresiones.h
+
