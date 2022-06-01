@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1584209020 source:d:\escuela\data structures\lista bidimensional\listabidimensional\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1654114165 source:d:\escuela\data structures\listabidimensional\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ListaSimple.h"
+	"Empleado.h"
+
+1654114872 source:d:\escuela\data structures\listabidimensional\src\listadematerias.c
+	<stdlib.h>
+	<stdio.h>
+	"../ListaDeMaterias.h"
+
+1654114935 d:\escuela\data structures\listabidimensional\listadematerias.h
+	"Materia.h"
+	<stdbool.h>
+
+1654114165 d:\escuela\data structures\listabidimensional\materia.h
+
+1654113961 source:d:\escuela\data structures\listabidimensional\src\listasimple.c
+	<stdio.h>
+	<stdlib.h>
+	"../ListaSimple.h"
+	"../Empleado.h"
+	"../Materia.h"
+
+1654113961 d:\escuela\data structures\listabidimensional\listasimple.h
+	<stdbool.h>
+	"Empleado.h"
+	"ListaDeMaterias.h"
+
+1654106436 d:\escuela\data structures\listabidimensional\empleado.h
+
+1654106894 source:d:\escuela\data structures\listabidimensional\src\alumno.c
+	<stdio.h>
+	<string.h>
+	"../Empleado.h"
+	"../ListaSimple.h"
+
+1654114872 source:d:\escuela\data structures\listabidimensional\src\materia.c
+	<stdio.h>
+	"../Materia.h"
+
