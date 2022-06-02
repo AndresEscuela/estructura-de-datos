@@ -11,22 +11,24 @@ int main()
     Materia dbAndres = {1, {'B', 'a', 's', 'e', 's', 'D', '\0'}, {9.0, 9.0, 10} };
     Materia mateAndres = {2, {'M', 'a', 't', 'e', 's', '(', '\0'}, {9.5, 9.5, 4.5} };
     Materia disenoAndres = {2, {'D', 'i', 's', 'e', 'n', 'o', '\0'}, {8.5, 8.5, 8} };
-    pushBack(&misMaterias, dbAndres);
-    pushBack(&misMaterias, mateAndres);
-    pushBack(&misMaterias, disenoAndres);
 
-    imprimirMaterias(&misMaterias);
-
-    /*
     ListaSimple miLista;
     miLista.root = NULL;
     Alumno andres = {123, {'A', 'n', 'd', 'r', 'e', 's', '\0'}, 9.0};
     Alumno paul = {246, {'P', 'a', 'u', 'l', '\0'}, 8.5};
     Alumno roa = {567, {'R', 'o', 'a', '1', '\0'}, 9.5};
+
     pushFront(&miLista, andres);
     pushFront(&miLista, paul);
     pushFront(&miLista, roa);
+    char nombreAndres[31] = {'A', 'n', 'd', 'r', 'e', 's', '\0'};
+    char nombrePaul[31] = {'P', 'a', 'u', 'l', '\0'};
+    char nombrePol[31] = {'P', 'o', 'u', 'l', '\0'};
+    agregarMateriaAAlumno(&miLista, nombreAndres, dbAndres);
+    agregarMateriaAAlumno(&miLista, nombrePaul, mateAndres);
+    agregarMateriaAAlumno(&miLista, nombreAndres, disenoAndres);
     imprimir(&miLista);
+    /*
     printf("\n");
     printf("\n--------------Elimino Paul------------");
     eliminar(&miLista, 246);
@@ -46,6 +48,6 @@ int main()
     pushFront(&miLista, paul);
     imprimir(&miLista);
     printf("\n");
-    */
+*/
     return 0;
 }

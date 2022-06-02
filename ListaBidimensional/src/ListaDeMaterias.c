@@ -23,7 +23,27 @@ void pushBack(ListaDeMaterias* list, Materia materia)
 }
 void eliminarMateria(ListaDeMaterias* list, int idMateria)
 {
-
+    NodoListaMaterias* nodoActual = list->root;
+    NodoListaMaterias* NodoAnterior = NULL;
+    if(!materiasEstaVacia(list))
+    {
+        while(nodoActual != NULL && nodoActual->elemento.idMateria != idMateria)
+        {
+            NodoAnterior = nodoActual;
+            nodoActual = nodoActual->siguienteNodo;
+        }
+        if(nodoActual != NULL && NodoAnterior != NULL)
+        {
+            NodoAnterior->siguienteNodo = nodoActual->siguienteNodo;
+            free(nodoActual);
+        }
+        if(nodoActual != NULL)
+            list->root = nodoActual->siguienteNodo;
+        else
+            printf("\nNo se encontro el id de Materia: %i", idMateria);
+    }
+    else
+        printf("La lista esta vacia, no hay nada que eliminar");
 }
 void imprimirMaterias(ListaDeMaterias* list)
 {

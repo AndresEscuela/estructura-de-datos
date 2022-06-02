@@ -44,3 +44,46 @@
 	<stdio.h>
 	"../Materia.h"
 
+1654192301 source:d:\escuela\data structures\listabidimensional\listabidimensional\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ListaSimple.h"
+	"ListaDeMaterias.h"
+	"Empleado.h"
+
+1654192301 d:\escuela\data structures\listabidimensional\listabidimensional\listasimple.h
+	<stdbool.h>
+	"Empleado.h"
+	"ListaDeMaterias.h"
+
+1654106436 d:\escuela\data structures\listabidimensional\listabidimensional\empleado.h
+
+1654114935 d:\escuela\data structures\listabidimensional\listabidimensional\listadematerias.h
+	"Materia.h"
+	<stdbool.h>
+
+1654114165 d:\escuela\data structures\listabidimensional\listabidimensional\materia.h
+
+1654106894 source:d:\escuela\data structures\listabidimensional\listabidimensional\src\alumno.c
+	<stdio.h>
+	<string.h>
+	"../Empleado.h"
+	"../ListaSimple.h"
+
+1654145433 source:d:\escuela\data structures\listabidimensional\listabidimensional\src\listadematerias.c
+	<stdlib.h>
+	<stdio.h>
+	"../ListaDeMaterias.h"
+
+1654192500 source:d:\escuela\data structures\listabidimensional\listabidimensional\src\listasimple.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../ListaSimple.h"
+	"../Empleado.h"
+	"../Materia.h"
+
+1654114872 source:d:\escuela\data structures\listabidimensional\listabidimensional\src\materia.c
+	<stdio.h>
+	"../Materia.h"
+

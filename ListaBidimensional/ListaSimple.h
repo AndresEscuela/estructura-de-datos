@@ -17,6 +17,7 @@ typedef struct ListaSimplementeEnlazada
 
 
 bool estaVacia(ListaSimple*);
-void pushFront(ListaSimple*, Alumno, ListaDeMaterias*);
+void pushFront(ListaSimple*, Alumno);
 void eliminar(ListaSimple*, int);
 void imprimir(ListaSimple*);
+void agregarMateriaAAlumno(ListaSimple*, char[31], Materia);
