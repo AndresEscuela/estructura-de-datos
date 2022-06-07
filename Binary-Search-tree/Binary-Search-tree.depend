@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1654621930 source:d:\repositorios\estructura-de-datos\binary-search-tree\main.c
+	<stdio.h>
+	<stdlib.h>
+	"include/BinarySearchTree.h"
+
+1654627581 d:\repositorios\estructura-de-datos\binary-search-tree\include\binarysearchtree.h
+	<stdbool.h>
+	"../include/BST_Node.h"
+
+1654620553 source:d:\repositorios\estructura-de-datos\binary-search-tree\src\binarysearchtree.c
+	"../include/BinarySearchTree.h"
+
+1654620553 source:d:\repositorios\estructura-de-datos\binary-search-tree\src\bst_node.c
+	"../include/BST_Node.h"
+
+1654628066 d:\repositorios\estructura-de-datos\binary-search-tree\include\bst_node.h
+
+1654626788 source:d:\repositorios\estructura-de-datos\binary-search-tree\src\menu.c
+	<stdio.h>
+	"../include/Menu.h"
+	"../include/BinarySearchTree.h"
+
+1654626849 d:\repositorios\estructura-de-datos\binary-search-tree\include\menu.h
+
