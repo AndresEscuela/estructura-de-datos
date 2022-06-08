@@ -28,3 +28,35 @@
 
 1654626849 d:\repositorios\estructura-de-datos\binary-search-tree\include\menu.h
 
+1654706114 source:d:\andres\estructura-de-datos-binary-search-tree\binary-search-tree\src\bst_node.c
+	<stdlib.h>
+	"../include/BST_Node.h"
+
+1654659958 d:\andres\estructura-de-datos-binary-search-tree\binary-search-tree\include\bst_node.h
+
+1654722703 source:d:\andres\estructura-de-datos-binary-search-tree\binary-search-tree\src\menu.c
+	<stdio.h>
+	"../include/Menu.h"
+	"../include/BinarySearchTree.h"
+
+1654712842 d:\andres\estructura-de-datos-binary-search-tree\binary-search-tree\include\menu.h
+	"BinarySearchTree.h"
+
+1654724651 d:\andres\estructura-de-datos-binary-search-tree\binary-search-tree\include\binarysearchtree.h
+	<stdbool.h>
+	"../include/BST_Node.h"
+
+1654708803 source:d:\andres\estructura-de-datos-binary-search-tree\binary-search-tree\main.c
+	<stdio.h>
+	<stdlib.h>
+	"include/Menu.h"
+	"BST_Node.h"
+	"BinarySearchTree.h"
+
+1654724498 source:d:\andres\estructura-de-datos-binary-search-tree\binary-search-tree\src\binarysearchtree.c
+	<stdlib.h>
+	<stdbool.h>
+	<stdio.h>
+	"../include/BinarySearchTree.h"
+	"../include/BST_Node.h"
+

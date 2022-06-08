@@ -1,5 +1,6 @@
 #pragma once
+#include "BinarySearchTree.h"
 
 void initMenu();
 void printOptions();
-void processInput();
+void processInput(BinarySearchTree*, int);
