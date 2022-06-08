@@ -2,17 +2,18 @@
 #include "../include/Menu.h"
 #include "../include/BinarySearchTree.h"
 
-initMenu()
+void initMenu()
 {
     BinarySearchTree myBST = getInitializedBST();
     while(1 == 1)
     {
-
-
+        printOptions();
+        processInput(&myBST);
     }
 }
-printOptions()
+void printOptions()
 {
+    printf("\n________________________________________________________");
     printf("\nSelecciona una opcion");
     printf("\n1. Agregar un Nodo");
     printf("\n2. Buscar un Elemento");
@@ -20,15 +21,19 @@ printOptions()
     printf("\n4. Imprimir Pre Order");
     printf("\n5. Imprimir In Order");
     printf("\n6. Imprimir Post Order");
-    printf("\n0. Salir");
+    printf("\n0. Salir\n:");
 }
-processInput(BinarySearchTree* myBST)
+void processInput(BinarySearchTree* myBST)
 {
     int input;
-    scanf(&input);
+    scanf("%i", &input);
     switch(input)
     {
     case 1:
+        printf("\nEscribe el elemento: ");
+        int elemento;
+        scanf("%i", &elemento);
+        addNode(myBST, elemento);
         break;
     case 2:
 
@@ -40,7 +45,7 @@ processInput(BinarySearchTree* myBST)
 
         break;
     case 5:
-
+        printInOrder(myBST);
         break;
     case 6:
 

@@ -15,6 +15,7 @@ void removeElement(BinarySearchTree*, int);
 bool isElementInTree(BinarySearchTree*, int);
 void printPreOrder(BinarySearchTree*);
 void printInOrder(BinarySearchTree*);
+void imprimirTodoEnOrden(BST_Node* nodoActual);
 void printPostOrder(BinarySearchTree*);
 void destroyBST(BinarySearchTree*);
 

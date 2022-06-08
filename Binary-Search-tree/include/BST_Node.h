@@ -8,4 +8,4 @@ typedef struct BSTNode
     struct BSTNode* ptr_rigthNode;
 } BST_Node;
 
-BST_Node getPtr_InitializedNode(int);
+BST_Node* getPtr_InitializedNode(int);
